@@ -1,0 +1,122 @@
+/* Header */
+.header{
+  border-bottom: solid;
+  border-color: #eb0000;
+  display: flex;
+  margin-bottom: 50px;
+  background-image: url("opctrain1.jpeg");
+  background-repeat: no-repeat;
+  background-position: 75% 25%;
+  background-size: cover;
+}
+
+/* Heading font */
+.header h1{
+  font-family: 'copperplate', fantasy;
+  font-weight: 100;
+  font-size: 100px;
+  color: black;
+  text-align: center;
+  text-shadow: -.5px 0 white, 0 .5px white, .5px 0 white, 0 -.5px white;
+}
+
+/* Logo */
+.header img{
+  width: 300px;
+  height: 300px;
+  margin-left: 200px;
+  margin-top: 35px;
+  padding-right: 100px;
+}
+
+body {
+  display: grid;
+  background: azule;
+  /* Azule, GhostWhite, MintCream, Snow */
+}
+
+/* Main section */
+.main{
+  display:flex;
+  border-left: 5px solid red;
+}
+
+.main-info{
+  background-color: #e3e3e3;
+}
+
+/* Main section header */
+.main h2{
+  font-size: 35px;
+  display: inline-block;
+  margin-left: 15px;
+  padding-top: 35px;
+  margin-bottom: 20px;
+}
+
+/* What we do list */
+.main ul{
+  font-size: 25px;
+  font-family: 'monaco', monospace;
+  line-height: 40px;
+  display:inline-block;
+}
+
+/* Images */
+.FrontTrainpic{
+    width: 300px;
+    height: auto;
+}
+
+.SideTrainpic{
+  width: 300px;
+  height: auto;
+}
+
+.Train2{
+  width: 510px;
+  height: auto;
+}
+
+
+/* entire contact bar*/
+.contact{
+  display: inline;
+  text-align: center;
+}
+
+/* contact icons */
+.material-icons{
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.contact p{
+  font-size: 30px;
+}
+
+.contact a{
+  color: red;
+  font-size: 20px;
+}
+
+/* Footer */
+.footer {
+  background: LightGrey;
+  color: Black;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.footer-inner {
+  max-width: 1000px;
+  margin: 10 auto;
+  padding: 0 10px 0 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer ul {
+  display: flex;
+  margin: 5px;
+}
